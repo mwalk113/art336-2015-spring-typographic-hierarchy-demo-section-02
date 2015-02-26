@@ -1,22 +1,65 @@
 /*
-Error: File to import not found or unreadable: normalize.
-       Load path: /Users/matthewwalker/Desktop/School/art 336/art336-2015-spring-typographic-hierarchy-demo-section-02/scss
-        on line 1 of /Users/matthewwalker/Desktop/School/art 336/art336-2015-spring-typographic-hierarchy-demo-section-02/scss/main.scss
+Error: Invalid CSS after "... lighten($color": expected ")", was ";70%)"
+        on line 56 of /Users/matthewwalker/Desktop/art336-2015-spring-typographic-hierarchy-demo-section-02/scss/_base.scss
+        from line 3 of /Users/matthewwalker/Desktop/art336-2015-spring-typographic-hierarchy-demo-section-02/scss/main.scss
 
-1: @import "normalize";
-2: @import "globals";
-3: @import "base";
-4: @import "layout";
-5: @import "module";
-6: @import "state";
+51: i, em {
+52:     @include body-font-light-italic;
+53: }
+54: 
+55: blockquote {
+56:     background-color: lighten($color;70%)
+57:         margin: 0;
+58:         padding: em(16pc);
+59: }
+60: 
+61: blockquote p;first-of-type {
 
 Backtrace:
-/Users/matthewwalker/Desktop/School/art 336/art336-2015-spring-typographic-hierarchy-demo-section-02/scss/main.scss:1
-/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:66:in `rescue in import'
-/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:45:in `import'
-/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:37:in `css_import?'
-/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+/Users/matthewwalker/Desktop/art336-2015-spring-typographic-hierarchy-demo-section-02/scss/_base.scss:56
+/Users/matthewwalker/Desktop/art336-2015-spring-typographic-hierarchy-demo-section-02/scss/main.scss:3
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/lexer.rb:220:in `expected!'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:580:in `assert_tok'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:408:in `funcall'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:387:in `ident'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:246:in `unary_not'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:246:in `unary_div'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:246:in `unary_minus'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:246:in `unary_plus'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:227:in `times_div_or_mod'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:227:in `plus_or_minus'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:227:in `relational'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:227:in `eq_or_neq'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:227:in `and_expr'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:227:in `or_expr'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:361:in `space'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:345:in `interpolation'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:293:in `expr'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:571:in `assert_expr'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:62:in `parse'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1027:in `sass_script'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:880:in `value!'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:753:in `block in try_declaration'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1141:in `call'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1141:in `rethrow'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:766:in `try_declaration'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:696:in `declaration_or_ruleset'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:650:in `block_contents'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:299:in `to_tree'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:313:in `block in visit_import'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `block in with_import'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `with_import'
+/Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
 /Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Users/matthewwalker/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
@@ -49,4 +92,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: normalize.\A        Load path: /Users/matthewwalker/Desktop/School/art 336/art336-2015-spring-typographic-hierarchy-demo-section-02/scss\A         on line 1 of /Users/matthewwalker/Desktop/School/art 336/art336-2015-spring-typographic-hierarchy-demo-section-02/scss/main.scss\A \A 1: @import \"normalize\";\A 2: @import \"globals\";\A 3: @import \"base\";\A 4: @import \"layout\";\A 5: @import \"module\";\A 6: @import \"state\";"; }
+  content: "Error: Invalid CSS after \"... lighten($color\": expected \")\", was \";70%)\"\A         on line 56 of /Users/matthewwalker/Desktop/art336-2015-spring-typographic-hierarchy-demo-section-02/scss/_base.scss\A         from line 3 of /Users/matthewwalker/Desktop/art336-2015-spring-typographic-hierarchy-demo-section-02/scss/main.scss\A \A 51: i, em {\A 52:     @include body-font-light-italic;\A 53: }\A 54: \A 55: blockquote {\A 56:     background-color: lighten($color;70%)\A 57:         margin: 0;\A 58:         padding: em(16pc);\A 59: }\A 60: \A 61: blockquote p;first-of-type {"; }
